@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00D152EE13D328A8BDCFD79 /* Pods_Lab9_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDDF5831A95529BAC4E9E6D /* Pods_Lab9_auth.framework */; };
+		E4A9499B2639ED5800273220 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E4A9499A2639ED5800273220 /* Podfile */; };
+		E4A9499E2639F2DC00273220 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4A9499D2639F2DC00273220 /* GoogleService-Info.plist */; };
+		E4B898D026395D79002CB31B /* Lab9_authApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B898CF26395D79002CB31B /* Lab9_authApp.swift */; };
+		E4B898D226395D79002CB31B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B898D126395D79002CB31B /* ContentView.swift */; };
+		E4B898D426395D7A002CB31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B898D326395D7A002CB31B /* Assets.xcassets */; };
+		E4B898D726395D7A002CB31B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B898D626395D7A002CB31B /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EDDF5831A95529BAC4E9E6D /* Pods_Lab9_auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab9_auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57D05DD7A8217B50DA5D67F /* Pods-Lab9_auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab9_auth.release.xcconfig"; path = "Target Support Files/Pods-Lab9_auth/Pods-Lab9_auth.release.xcconfig"; sourceTree = "<group>"; };
+		E4A9499A2639ED5800273220 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E4A9499D2639F2DC00273220 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4B898CC26395D79002CB31B /* Lab9_auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab9_auth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B898CF26395D79002CB31B /* Lab9_authApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab9_authApp.swift; sourceTree = "<group>"; };
+		E4B898D126395D79002CB31B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4B898D326395D7A002CB31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4B898D626395D7A002CB31B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4B898D826395D7A002CB31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BA4E355A6D04F6A4EEFABA /* Pods-Lab9_auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab9_auth.debug.xcconfig"; path = "Target Support Files/Pods-Lab9_auth/Pods-Lab9_auth.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B898C926395D79002CB31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00D152EE13D328A8BDCFD79 /* Pods_Lab9_auth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CF3990D31AC62F5EC1FA9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EDDF5831A95529BAC4E9E6D /* Pods_Lab9_auth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4875435607A11406D670FD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4BA4E355A6D04F6A4EEFABA /* Pods-Lab9_auth.debug.xcconfig */,
+				D57D05DD7A8217B50DA5D67F /* Pods-Lab9_auth.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4B898C326395D79002CB31B = {
+			isa = PBXGroup;
+			children = (
+				E4A9499A2639ED5800273220 /* Podfile */,
+				E4B898CE26395D79002CB31B /* Lab9_auth */,
+				E4B898CD26395D79002CB31B /* Products */,
+				B4875435607A11406D670FD5 /* Pods */,
+				42CF3990D31AC62F5EC1FA9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B898CD26395D79002CB31B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4B898CC26395D79002CB31B /* Lab9_auth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B898CE26395D79002CB31B /* Lab9_auth */ = {
+			isa = PBXGroup;
+			children = (
+				E4A9499D2639F2DC00273220 /* GoogleService-Info.plist */,
+				E4B898CF26395D79002CB31B /* Lab9_authApp.swift */,
+				E4B898D126395D79002CB31B /* ContentView.swift */,
+				E4B898D326395D7A002CB31B /* Assets.xcassets */,
+				E4B898D826395D7A002CB31B /* Info.plist */,
+				E4B898D526395D7A002CB31B /* Preview Content */,
+			);
+			path = Lab9_auth;
+			sourceTree = "<group>";
+		};
+		E4B898D526395D7A002CB31B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4B898D626395D7A002CB31B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B898CB26395D79002CB31B /* Lab9_auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B898DB26395D7A002CB31B /* Build configuration list for PBXNativeTarget "Lab9_auth" */;
+			buildPhases = (
+				A093AF9F1CDC8F6344A65CDF /* [CP] Check Pods Manifest.lock */,
+				E4B898C826395D79002CB31B /* Sources */,
+				E4B898C926395D79002CB31B /* Frameworks */,
+				E4B898CA26395D79002CB31B /* Resources */,
+				0728E6152762B4B35EFCB84A /* [CP] Embed Pods Frameworks */,
+				461356A4227A3FB3F5570CD2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab9_auth;
+			productName = Lab9_auth;
+			productReference = E4B898CC26395D79002CB31B /* Lab9_auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B898C426395D79002CB31B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E4B898CB26395D79002CB31B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E4B898C726395D79002CB31B /* Build configuration list for PBXProject "Lab9_auth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4B898C326395D79002CB31B;
+			productRefGroup = E4B898CD26395D79002CB31B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B898CB26395D79002CB31B /* Lab9_auth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4B898CA26395D79002CB31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A9499B2639ED5800273220 /* Podfile in Resources */,
+				E4A9499E2639F2DC00273220 /* GoogleService-Info.plist in Resources */,
+				E4B898D726395D7A002CB31B /* Preview Assets.xcassets in Resources */,
+				E4B898D426395D7A002CB31B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0728E6152762B4B35EFCB84A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab9_auth/Pods-Lab9_auth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab9_auth/Pods-Lab9_auth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lab9_auth/Pods-Lab9_auth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		461356A4227A3FB3F5570CD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab9_auth/Pods-Lab9_auth-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab9_auth/Pods-Lab9_auth-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lab9_auth/Pods-Lab9_auth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A093AF9F1CDC8F6344A65CDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lab9_auth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B898C826395D79002CB31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B898D226395D79002CB31B /* ContentView.swift in Sources */,
+				E4B898D026395D79002CB31B /* Lab9_authApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4B898D926395D7A002CB31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4B898DA26395D7A002CB31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B898DC26395D7A002CB31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4BA4E355A6D04F6A4EEFABA /* Pods-Lab9_auth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab9_auth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lab9_auth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "varf-yas.Lab9-auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4B898DD26395D7A002CB31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57D05DD7A8217B50DA5D67F /* Pods-Lab9_auth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab9_auth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lab9_auth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "varf-yas.Lab9-auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B898C726395D79002CB31B /* Build configuration list for PBXProject "Lab9_auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B898D926395D7A002CB31B /* Debug */,
+				E4B898DA26395D7A002CB31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B898DB26395D7A002CB31B /* Build configuration list for PBXNativeTarget "Lab9_auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B898DC26395D7A002CB31B /* Debug */,
+				E4B898DD26395D7A002CB31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B898C426395D79002CB31B /* Project object */;
+}

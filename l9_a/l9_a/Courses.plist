@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>name</key>
+		<string>English</string>
+		<key>description</key>
+		<string>World&apos;s best English courses!!!</string>
+		<key>image</key>
+		<string>eng</string>
+		<key>teacher</key>
+		<string>Ivanov A.A.</string>
+		<key>teachInfo</key>
+		<string>Greatest english teacher!</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>name</key>
+		<string>Math</string>
+		<key>description</key>
+		<string>World&apos;s best Math courses!!!</string>
+		<key>image</key>
+		<string>math</string>
+		<key>teacher</key>
+		<string>Petrov A.A.</string>
+		<key>teachInfo</key>
+		<string>Greatest math teacher!</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>name</key>
+		<string>Deutch</string>
+		<key>description</key>
+		<string>World&apos;s best Deutch courses!!!</string>
+		<key>image</key>
+		<string>deutch</string>
+		<key>teacher</key>
+		<string>Sidorov A.A.</string>
+		<key>teachInfo</key>
+		<string>Greatest deutch teacher!</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>name</key>
+		<string>Yoga</string>
+		<key>description</key>
+		<string>World&apos;s best yoga courses!!!</string>
+		<key>image</key>
+		<string>yoga</string>
+		<key>teacher</key>
+		<string>Andreev A.A.</string>
+		<key>teachInfo</key>
+		<string>Greatest yoga teacher!</string>
+	</dict>
+</dict>
+</plist>
